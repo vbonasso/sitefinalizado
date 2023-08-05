@@ -1,0 +1,16 @@
+.divconteudo {
+    
+    color: var(--branco);
+    padding: 24px;
+}
+
+.textotitulo {
+    background-color: var(--);
+    padding: 24px;
+    font-weight: 700;
+}
+
+.textocorpo {
+    background-color: var(--);
+    padding: 5px;
+}
