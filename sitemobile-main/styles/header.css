@@ -1,7 +1,7 @@
 .cabeçalho_menu-hamburger {
     width: 24px;
     height: 24px;
-    background-image: url(../Img/image\ 1.svg);
+    background-image: url(../img/image\ 1.svg);
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,19 +32,19 @@
     width: 50vw;
 }
 
-.containerbotao:checked~.lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
 }
 
-.lista-menutitulo,
-.lista-menuitem {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 14px;
     background-color: var(--branco);
     display: block;
  }
 
- .lista-menutitulo {
-    color: var(--navy);
+ .lista-menu__titulo {
+    color: var(--preto);
     font-size: 20px;
     font-weight: 700;
  }
@@ -54,11 +54,11 @@
     font-size: 24px;
  }
 
- .containerbotao {
+ .container__botao {
     display: none;
  }
 
- .lista-menulink {
+ .lista-menu__link {
     text-decoration: none;
  }
 
